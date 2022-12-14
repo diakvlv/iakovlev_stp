@@ -13,13 +13,14 @@
 }
 
 body {
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Barlow', sans-serif;
   background-color: #E8E6E6;
 }
 
 /* HEADER */
 header {
   display: flex;
+  font-family: 'Barlow', sans-serif;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
@@ -43,7 +44,7 @@ a.logo {
 .nav__links a,
 .cta,
 .overlay__content a {
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: black;
@@ -51,6 +52,7 @@ a.logo {
 }
 
 .nav__links {
+  font-family: 'Barlow', sans-serif;
   list-style: none;
   display: flex;
 }
@@ -156,6 +158,9 @@ a.logo {
 /* END HEADER */
 
 /* FOOTER */
+footer {
+background-color: white;
+}
 .footer-container {
 display: flex;
 flex-wrap: wrap;
@@ -290,7 +295,7 @@ height: 1.25rem;
 }
 
 .footer-list li a:hover {
-  color: #706334;
+color: #706334;
 }
 
 @media (min-width: 900px) {
