@@ -4,6 +4,7 @@ const menuClose = doc.querySelector(".close");
 const menuClose2 = doc.querySelector(".close2");
 const overlay = doc.querySelector(".overlay");
 
+
 menuOpen.addEventListener("click", () => {
   overlay.classList.add("overlay--active");
 });
