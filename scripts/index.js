@@ -19,5 +19,5 @@ menuClose2.addEventListener("click", () => {
 
 
 setTimeout(function(){
-	document.body.classList.add('body_visible');
+	document.body.classList.add('body-visible');
 }, 200);
