@@ -27,10 +27,11 @@
     background-color: white;
   }
   
-  h {
+  h1 {
     font-family: 'Playfair Display';
     font-size: 20px;
     cursor: pointer;
+    font-weight: 50;
   }
 
   a.logo {
@@ -146,7 +147,7 @@
     }
   }
   
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1018px) {
     .nav__links,
     .cta {
       display: none;
@@ -203,7 +204,7 @@
     background-size: cover;
   }
 
-  @media(max-width: 900px){
+  @media(max-width: 1018px){
     .wrapper {
       padding: 25px;
     }
@@ -307,7 +308,7 @@ footer {
   color: var(--gray-800);
 }
 
-@media (max-width: 900px) {  
+@media (max-width: 1018px) {  
     iframe.map {
         width: 200px;
         height: 250px;
@@ -359,7 +360,7 @@ footer {
   color: #706334;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1018px) {
   .footer-container {
     flex-direction: row;
   }
